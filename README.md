@@ -1,3 +1,60 @@
+📉 Stock Market Crash Analysis (Sensex Index)
+This project analyzes historical Sensex data to identify daily crashes, drawdowns, and market crash clusters using Python and visualizes the results with Plotly.
+
+🚀 Overview
+Analyzed stock closing price data for the Sensex index
+
+Calculated:
+
+Daily returns
+
+Drawdowns from historical peaks
+
+Days with crashes (return ≤ -5%)
+
+Clusters of crashes (drawdowns ≤ -20% grouped by 3-day windows)
+
+Visualized results with interactive line plots and markers for crash events
+
+🛠️ Tech Stack
+Python (Pandas, NumPy)
+
+Plotly for interactive visualization
+
+Matplotlib for auxiliary plots
+
+Jupyter Notebook for development
+
+📊 Key Features
+✅ Convert and sort date-indexed time series data
+
+✅ Calculate and plot drawdowns
+
+✅ Identify & count major daily crashes
+
+✅ Group drawdown periods into logical crash clusters
+
+✅ Generate meaningful visualizations
+
+📈 Sample Output
+Daily Return %
+
+Drawdown % from peak
+
+Crash markers plotted on line charts
+
+Cluster detection based on rolling window
+
+📁 Dataset
+Historical Sensex data was loaded from a cleaned CSV file prepared in advance (user-collected dataset).
+
+🧠 Key Learnings
+Time-series data manipulation using datetime indexing
+
+Conditional logic for cluster grouping in financial analysis
+
+Data visualization using Plotly for storytelling
+
 # StockMarket_crash_Analysis
 Using Python
 stock market crash analysis
